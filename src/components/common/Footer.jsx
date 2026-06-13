@@ -97,7 +97,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-primary-light"
               >
-                +91 {siteConfig.whatsappNumber.slice(2)}
+                {siteConfig.whatsappDisplayNumber}
               </a>
             </li>
             <li className="flex items-start gap-2">

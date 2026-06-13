@@ -50,7 +50,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                         className="text-text-muted transition-colors hover:text-primary-dark"
                       >
-                        +91 {siteConfig.whatsappNumber.slice(2)}
+                        {siteConfig.whatsappDisplayNumber}
                       </a>
                     </div>
                   </li>

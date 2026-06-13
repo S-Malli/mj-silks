@@ -13,19 +13,18 @@ export const siteConfig = {
   url: env.siteUrl,
   email: env.contactEmail,
   whatsappNumber: env.whatsappNumber,
+  whatsappDisplayNumber: `+${env.whatsappNumber}`,
   whatsappLink: `https://wa.me/${env.whatsappNumber}`,
   whatsappDefaultMessage:
     'Hello MJ Silks, I would like to know more about your saree collection.',
-  address: 'Tiruppur, Tamil Nadu, India',
+  address: 'Rasipuram, Tamil Nadu, India',
   businessHours: [
     { day: 'Monday - Saturday', hours: '9:30 AM - 8:30 PM' },
     { day: 'Sunday', hours: '10:00 AM - 6:00 PM' },
   ],
   social: {
-    instagram: 'https://instagram.com/mjsilks',
-    facebook: 'https://facebook.com/mjsilks',
-    youtube: 'https://youtube.com/@mjsilks',
-    pinterest: 'https://pinterest.com/mjsilks',
+    instagram: 'https://instagram.com/mjsilksarees_2026/',
+    facebook: 'https://www.facebook.com/profile.php?id=61574261591867',
   },
 }
 

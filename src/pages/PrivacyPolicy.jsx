@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
                 <a href={`mailto:${siteConfig.email}`} className="font-medium text-primary-dark underline-offset-4 hover:underline">
                   {siteConfig.email}
                 </a>{' '}
-                or via WhatsApp at +91 {siteConfig.whatsappNumber.slice(2)}.
+                or via WhatsApp at {siteConfig.whatsappDisplayNumber}.
               </p>
             </div>
           </PolicyContent>

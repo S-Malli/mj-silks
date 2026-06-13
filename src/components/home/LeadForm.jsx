@@ -74,103 +74,44 @@ export default function LeadForm() {
               </button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit(onRequestCatalogue)} className="space-y-5">
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-text">
-                    Name
-                  </label>
-                  <input
-                    id="name"
-                    type="text"
-                    placeholder="Your full name"
-                    className="w-full rounded-xl border border-primary/30 bg-background/40 px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/30"
-                    {...register('name', { required: 'Name is required' })}
-                  />
-                  {errors.name && (
-                    <p className="mt-1 text-xs text-red-500">{errors.name.message}</p>
-                  )}
-                </div>
+            <div
+              id="aidig-lead-form"
 
-                <div>
-                  <label htmlFor="mobile" className="mb-1.5 block text-sm font-medium text-text">
-                    Mobile Number
-                  </label>
-                  <input
-                    id="mobile"
-                    type="tel"
-                    placeholder="10-digit mobile number"
-                    className="w-full rounded-xl border border-primary/30 bg-background/40 px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/30"
-                    {...register('mobile', {
-                      required: 'Mobile number is required',
-                      pattern: {
-                        value: /^[6-9]\d{9}$/,
-                        message: 'Enter a valid 10-digit mobile number',
-                      },
-                    })}
-                  />
-                  {errors.mobile && (
-                    <p className="mt-1 text-xs text-red-500">{errors.mobile.message}</p>
-                  )}
-                </div>
-              </div>
+              data-key="LK-QRQA-MJNC-MNYR"
 
-              <div>
-                <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-text">
-                  Email Address
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="you@example.com"
-                  className="w-full rounded-xl border border-primary/30 bg-background/40 px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/30"
-                  {...register('email', {
-                    required: 'Email is required',
-                    pattern: {
-                      value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                      message: 'Enter a valid email address',
-                    },
-                  })}
-                />
-                {errors.email && (
-                  <p className="mt-1 text-xs text-red-500">{errors.email.message}</p>
-                )}
-              </div>
+              data-title="Get a Free Callback"
 
-              <div>
-                <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-text">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  placeholder="Tell us what you're looking for..."
-                  className="w-full resize-none rounded-xl border border-primary/30 bg-background/40 px-4 py-3 text-sm outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/30"
-                  {...register('message', { required: 'Please add a short message' })}
-                />
-                {errors.message && (
-                  <p className="mt-1 text-xs text-red-500">{errors.message.message}</p>
-                )}
-              </div>
+              data-name="Mj Silks"
 
-              <div className="flex flex-col gap-3 sm:flex-row">
-                <button
-                  type="submit"
-                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-white shadow-soft transition-all duration-300 hover:bg-primary-dark hover:shadow-lg"
-                >
-                  <Send size={18} />
-                  Request Catalogue
-                </button>
-                <button
-                  type="button"
-                  onClick={handleWhatsAppContact}
-                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-soft transition-all duration-300 hover:bg-[#1ebe5b] hover:shadow-lg"
-                >
-                  <MessageCircle size={18} />
-                  Contact on WhatsApp
-                </button>
-              </div>
-            </form>
+              data-subtitle="Fill in your details and we'll reach you in max 10 mins."
+
+              data-btn-text="Send My Details"
+
+              data-fields="name,phone,email,message"
+
+
+              data-required="name,phone"
+
+              data-color="#6366f1"
+
+              data-theme="light"
+
+              data-rounded="xl"
+
+              data-success="Thank you! We'll call you shortly. 🎉"
+              
+              data-redirect=""
+
+
+              data-source="website"
+
+
+              data-relay="https://iknxajeuxbziieslmttw.supabase.co/functions/v1/submit-lead"
+            
+
+              data-webhook="https://script.google.com/macros/s/AKfycbxKN8shUwCP0aBoOVsaAgK_dPO2HmX-Vb-RN1XPyu6OQFWpwXan23hiIOuHK13MDpoI/exec"
+              
+            ></div>
           )}
         </motion.div>
       </Container>
