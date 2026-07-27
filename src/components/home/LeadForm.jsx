@@ -76,41 +76,21 @@ export default function LeadForm() {
           ) : (
             <div
               id="aidig-lead-form"
-
-              data-key="LK-QRQA-MJNC-MNYR"
-
+              data-key="LK-P4NM-W9ME-79SZ"
               data-title="Get a Free Callback"
-
-              data-name="Mj Silks"
-
-              data-subtitle="Fill in your details and we'll reach you in max 10 mins."
-
+              data-name="Hello Silks"
+              data-subtitle="Fill in your details and we'l`l reach you in max 10 mins."
               data-btn-text="Send My Details"
-
               data-fields="name,phone,email,message"
-
-
               data-required="name,phone"
-
-              data-color="#6366f1"
-
+              data-color="#ef4444"
               data-theme="light"
-
               data-rounded="xl"
-
               data-success="Thank you! We'll call you shortly. 🎉"
-              
               data-redirect=""
-
-
               data-source="website"
-
-
               data-relay="https://iknxajeuxbziieslmttw.supabase.co/functions/v1/submit-lead"
-            
-
-              data-webhook="https://script.google.com/macros/s/AKfycbxKN8shUwCP0aBoOVsaAgK_dPO2HmX-Vb-RN1XPyu6OQFWpwXan23hiIOuHK13MDpoI/exec"
-              
+              data-webhook="https://script.google.com/macros/s/AKfycbyxUNmPBLueguhifKaocELeaxGRWnnWUcggJFtZMYr7dYNyGPwPYdmtAugp_J_3mIOQ/exec"
             ></div>
           )}
         </motion.div>
