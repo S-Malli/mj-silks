@@ -41,10 +41,10 @@ Copy `.env.example` to `.env` and adjust as needed:
 
 ```env
 VITE_APP_NAME=Hello Silks
-VITE_CONTACT_EMAIL=sales.hellosilks@gmail.com
-VITE_WHATSAPP_NUMBER=919790321115
+VITE_CONTACT_EMAIL=demo.hellosilks@gmail.com
+VITE_WHATSAPP_NUMBER=14155238886
 VITE_API_URL=http://localhost:5000/api
-VITE_SITE_URL=https://www.hellosilks.com
+VITE_SITE_URL=https://jocular-sopapillas-6f76f9.netlify.app/
 ```
 
 These are consumed centrally via `src/config/env.js` — never read
@@ -127,7 +127,7 @@ color usage will stay in sync.
 
 ## Brand Details
 
-- **Email:** sales.hellosilks@gmail.com
+- **Email:** demo.hellosilks@gmail.com
 - **WhatsApp:** +91 97903 21115
 
 ## License

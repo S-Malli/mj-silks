@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hellosilks.com/sitemap.xml
+Sitemap: https://www.jocular-sopapillas-6f76f9.netlify.app/sitemap.xml
