@@ -1,6 +1,6 @@
-# MJ Silks
+# Hello Silks
 
-A modern, responsive, production-ready e-commerce storefront for **MJ Silks** —
+A modern, responsive, production-ready e-commerce storefront for **Hello Silks** —
 a premium silk saree brand. Built with React, Vite and Tailwind CSS, and
 designed as a scalable, open-source-friendly foundation for future
 full-stack e-commerce features.
@@ -40,11 +40,11 @@ npm run lint
 Copy `.env.example` to `.env` and adjust as needed:
 
 ```env
-VITE_APP_NAME=MJ Silks
-VITE_CONTACT_EMAIL=sales.mjsilks@gmail.com
+VITE_APP_NAME=Hello Silks
+VITE_CONTACT_EMAIL=sales.hellosilks@gmail.com
 VITE_WHATSAPP_NUMBER=919790321115
 VITE_API_URL=http://localhost:5000/api
-VITE_SITE_URL=https://www.mjsilks.com
+VITE_SITE_URL=https://www.hellosilks.com
 ```
 
 These are consumed centrally via `src/config/env.js` — never read
@@ -127,7 +127,7 @@ color usage will stay in sync.
 
 ## Brand Details
 
-- **Email:** sales.mjsilks@gmail.com
+- **Email:** sales.hellosilks@gmail.com
 - **WhatsApp:** +91 97903 21115
 
 ## License

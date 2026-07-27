@@ -15,7 +15,7 @@ export default function HeroBanner() {
       <div className="absolute inset-0 -z-10">
         <img
           src={bannerImage}
-          alt="MJ Silks premium silk saree collection"
+          alt="Hello Silks premium silk saree collection"
           className="h-full w-full object-cover"
           fetchPriority="high"
         />

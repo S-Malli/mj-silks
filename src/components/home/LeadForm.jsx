@@ -38,7 +38,7 @@ export default function LeadForm() {
 
     const data = getValues()
     console.log('WhatsApp enquiry submitted:', data)
-    const message = `Hello MJ Silks, my name is ${data.name}.\nMobile: ${data.mobile}\nEmail: ${data.email}\nMessage: ${data.message}`
+    const message = `Hello Silks, my name is ${data.name}.\nMobile: ${data.mobile}\nEmail: ${data.email}\nMessage: ${data.message}`
     window.open(getWhatsAppLink(message), '_blank', 'noopener,noreferrer')
   }
 

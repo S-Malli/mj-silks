@@ -13,7 +13,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact Us"
-        description="Get in touch with MJ Silks via email, WhatsApp or our contact form. View our business hours and frequently asked questions."
+        description="Get in touch with Hello Silks via email, WhatsApp or our contact form. View our business hours and frequently asked questions."
         path="/contact"
       />
 
@@ -21,7 +21,7 @@ export default function Contact() {
         <Container>
           <SectionHeader
             eyebrow="We'd Love to Hear From You"
-            title="Contact MJ Silks"
+            title="Contact Hello Silks"
             description="Have a question about a saree, an order, or want a custom recommendation? Reach out to us through any of the channels below."
           />
 

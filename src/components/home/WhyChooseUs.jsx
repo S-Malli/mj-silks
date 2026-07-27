@@ -42,8 +42,8 @@ export default function WhyChooseUs() {
     <section className="bg-white py-16 sm:py-24">
       <Container>
         <SectionHeader
-          eyebrow="Why MJ Silks"
-          title="Why Choose MJ Silks"
+          eyebrow="Why Hello Silks"
+          title="Why Choose Hello Silks"
           description="We blend tradition, quality and trust to bring you a saree shopping experience like no other."
         />
 

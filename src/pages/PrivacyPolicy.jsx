@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
     <>
       <SEO
         title="Privacy Policy"
-        description="Read the MJ Silks privacy policy to understand how we collect, use and protect your personal information."
+        description="Read the Hello Silks privacy policy to understand how we collect, use and protect your personal information."
         path="/privacy-policy"
       />
 

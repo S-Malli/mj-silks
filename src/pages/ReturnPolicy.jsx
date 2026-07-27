@@ -9,7 +9,7 @@ export default function ReturnPolicy() {
     <>
       <SEO
         title="Return Policy"
-        description="Read the MJ Silks return and exchange policy, including eligibility, process and refund timelines."
+        description="Read the Hello Silks return and exchange policy, including eligibility, process and refund timelines."
         path="/return-policy"
       />
 

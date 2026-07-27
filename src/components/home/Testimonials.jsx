@@ -12,7 +12,7 @@ export default function Testimonials() {
         <SectionHeader
           eyebrow="Customer Love"
           title="What Our Customers Say"
-          description="Real stories from real customers who trusted MJ Silks for their most special occasions."
+          description="Real stories from real customers who trusted Hello Silks for their most special occasions."
         />
 
         <motion.div

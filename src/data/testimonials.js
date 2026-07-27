@@ -11,7 +11,7 @@ export const testimonials = [
     initials: 'PS',
     rating: 5,
     review:
-      'The Kanchipuram silk saree I bought for my engagement was absolutely stunning. The zari work and finish look even better in person — MJ Silks has earned a lifelong customer!',
+      'The Kanchipuram silk saree I bought for my engagement was absolutely stunning. The zari work and finish look even better in person — Hello Silks has earned a lifelong customer!',
   },
   {
     id: 't2',
@@ -29,7 +29,7 @@ export const testimonials = [
     initials: 'DM',
     rating: 5,
     review:
-      'My bridal saree from MJ Silks was the highlight of my wedding. Every guest asked where I got it from. Truly premium quality and the customer service was wonderful.',
+      'My bridal saree from Hello Silks was the highlight of my wedding. Every guest asked where I got it from. Truly premium quality and the customer service was wonderful.',
   },
   {
     id: 't4',

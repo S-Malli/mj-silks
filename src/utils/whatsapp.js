@@ -13,6 +13,6 @@ export function getWhatsAppLink(message = siteConfig.whatsappDefaultMessage) {
  * Builds a WhatsApp enquiry link for a specific saree product.
  */
 export function getProductWhatsAppLink(productName) {
-  const message = `Hello MJ Silks, I'm interested in the "${productName}" saree. Could you share more details?`
+  const message = `Hello Silks, I'm interested in the "${productName}" saree. Could you share more details?`
   return getWhatsAppLink(message)
 }

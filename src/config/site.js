@@ -9,14 +9,14 @@ export const siteConfig = {
   name: env.appName,
   tagline: 'Timeless Elegance in Every Thread',
   description:
-    'MJ Silks brings you premium handpicked silk sarees crafted for weddings, festivals and every celebration. Discover Kanchipuram, Bridal, Soft Silk and Premium Collections.',
+    'Hello Silks brings you premium handpicked silk sarees crafted for weddings, festivals and every celebration. Discover Kanchipuram, Bridal, Soft Silk and Premium Collections.',
   url: env.siteUrl,
   email: env.contactEmail,
   whatsappNumber: env.whatsappNumber,
   whatsappDisplayNumber: `+${env.whatsappNumber}`,
   whatsappLink: `https://wa.me/${env.whatsappNumber}`,
   whatsappDefaultMessage:
-    'Hello MJ Silks, I would like to know more about your saree collection.',
+    'Hello Silks, I would like to know more about your saree collection.',
   address: 'Rasipuram, Tamil Nadu, India',
   businessHours: [
     { day: 'Monday - Saturday', hours: '9:30 AM - 8:30 PM' },

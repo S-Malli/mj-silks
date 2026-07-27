@@ -1,6 +1,6 @@
 # Auth (Planned)
 
-Customer authentication for MJ Silks (sign up, login, OTP/password reset,
+Customer authentication for Hello Silks (sign up, login, OTP/password reset,
 session management).
 
 ## Planned structure
